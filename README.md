@@ -1,3 +1,13 @@
+Piotr Swobodziński 12K3 - GL05, wszystkie zadania z labolatorium (wykład) zostały wykonane
+
+
+
+Szanowni Państwo, proszę dodać do swoich repozytoriów z zajęć nasze konta.
+
+dr hab. inż. Grzegorz Filo, prof. PK https://github.com/grzfilo
+
+dr inż. Paweł Lempa https://github.com/PKPL
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
