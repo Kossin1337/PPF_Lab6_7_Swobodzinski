@@ -1,6 +1,6 @@
 Piotr Swobodziński 12K3 - GL05, wszystkie zadania z labolatorium (wykład) zostały wykonane
 
-
+https://github.com/Kossin1337/PPF_Lab6_7_Swobodzinski
 
 Szanowni Państwo, proszę dodać do swoich repozytoriów z zajęć nasze konta.
 
