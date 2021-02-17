@@ -1,22 +1,23 @@
+import React from 'react';
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import { Helmet } from 'react-helmet';
 import './App.css';
-import {CFooter} from './components/CFooter';
-import CHeader from './components/CHeader';
-import CContents from './components/CContents';
-import COuter from './components/COuter';
+import Home from './pages';
+import SigninPage from './pages/signin';
+import FullMenu from './pages/fullmenu';
 
 function App() {
   return (
-    <div className="App">
-      <CHeader aName="Piotr" aFamily="Swobodziński"/>
-      {/* <CHeader aName="Dawid" aFamily="Pasieka"/> */}
-      <COuter/>
-      <CContents/>
-      <CFooter weather="sunny" temp="30">
-        <p>Sky is clear and wind you can feel a breeze of light wind</p>
-      </CFooter>
-      {/* <CFooter weather="snowy" temp="(-15)"/>
-      <CFooter weather="rainy" temp="10"/> */}
-    </div>
+    <Router>
+      <Helmet>
+        <title>Pizza</title>
+      </Helmet>
+      <Switch>
+        <Route path="/PizzaRestaurant" component={Home} exact />
+        <Route path="/PizzaRestaurant/signin" component={SigninPage} exact />
+        <Route path="/PizzaRestaurant/fullmenu" component={FullMenu} exact />
+      </Switch>
+    </Router>
   );
 }
 
